@@ -41,6 +41,9 @@ export GRDIR=/opt/graudit/signatures
 ```
 
 ## Setting up live vulnerable target for last labs
+To complete the final labs, you will need to have docker and docker-compose installed.
+
+Then you can launch the environment with the following:
 ```sh
 git clone https://github.com/snoopysecurity/dvws-node.git
 cd dvws-node
