@@ -1,7 +1,8 @@
 # "The Art of Finding Security Vulnerabilities in Code" Workshop Materials
 
-All students taking my workshop should install the following tools:
+For students using Windows, please make sure you have installed [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) with your favorite Linux distro first.
 
+All students taking my workshop should install the following tools:
 - [dotnet](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 - [jd-cli](https://github.com/intoolswetrust/jd-cli)
 - [ilspycmd](https://github.com/icsharpcode/ILSpy/releases) (Get v8.2)
