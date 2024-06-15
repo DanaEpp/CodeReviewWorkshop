@@ -40,6 +40,14 @@ echo 'PATH="$HOME/graudit:${PATH:+:${PATH}}"; export PATH;' >> ~/.bashrc
 export GRDIR=/opt/graudit/signatures
 ```
 
+## Setting up semgrep
+On a Mac, use `brew install semgrep`.
+
+On Linux or Windows, use `python3 -m pip install semgrep`
+
+Once installed, get your [CLI app token](https://semgrep.dev/orgs/-/settings/tokens/cli) from your free account on semgrep and login to the CLI with the following cmd:
+`SEMGREP_APP_TOKEN=<token> semgrep login`
+
 ## Setting up live vulnerable target for last labs
 To complete the final labs, you will need to have docker and docker-compose installed.
 
